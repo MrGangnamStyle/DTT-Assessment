@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     public Slider lengthSlider;
 
     private int minDimension = 5;
-    private int maxDimension = 100;
+    private int maxDimension = 50;
     private Dictionary<TMP_InputField, Slider> inputPairs = new Dictionary<TMP_InputField, Slider>();
 
     [Space] public Button spawnPlayerButton;
